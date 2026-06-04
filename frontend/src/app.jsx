@@ -3,7 +3,7 @@ import axios from 'axios';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Search, Plus, Edit2, Trash2, LogOut, GraduationCap, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "http://51.21.202.178:5000/api";
 
 export default function App() {
   // Authentication State
